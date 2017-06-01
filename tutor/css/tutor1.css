@@ -1,0 +1,233 @@
+@import url("reset.css");
+html,
+body,
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: none;
+  overflow: hidden;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper header {
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 3px 1px #e5e5e5;
+  display: flex;
+  flex-direction: row;
+}
+.wrapper header h3 {
+  font-size: 20px;
+  margin: 0 auto;
+  line-height: 5rem;
+}
+.wrapper header span {
+  position: absolute;
+  left: 1rem;
+  top: 1.3rem;
+}
+.wrapper header span img {
+  width: 1.5rem;
+  height: 2.5rem;
+  background: none;
+}
+.wrapper section {
+  overflow-y: auto;
+  flex: 1;
+}
+.wrapper section::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper section .search {
+  width: 100%;
+  height: 5.5rem;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 1rem 1rem 0;
+  box-sizing: border-box;
+}
+.wrapper section .search input {
+  width: 100%;
+  height: 3.5rem;
+  background: #ffffff;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 40px;
+}
+.wrapper section .search input::-webkit-input-placeholder {
+  color: #989898;
+  font-size: 14px;
+}
+.wrapper section .search img {
+  width: 1.4rem;
+  height: 1.4rem;
+  background: none;
+  position: relative;
+  left: 30px;
+  margin-top: 1rem;
+}
+.wrapper section .one ul li {
+  width: 100%;
+  height: 5.5rem;
+  background: none;
+  line-height: 5.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.wrapper section .one ul li span {
+  font-size: 16px;
+  margin-left: 1.2rem;
+}
+.wrapper section .one ul li .img {
+  float: right;
+  margin-top: 2rem;
+  padding-right: 1.4rem;
+}
+.wrapper section .one ul .last {
+  width: 100%;
+  height: 3.5rem;
+  background: #f3f3f3;
+  line-height: 3.5rem;
+}
+.wrapper section .one ul .last img {
+  padding: 0 0 0 1rem;
+  width: 0.3rem;
+  height: 1.5rem;
+  background: none;
+}
+.wrapper section .one ul .last span {
+  font-size: 14px;
+}
+.wrapper section .five {
+  width: 100%;
+  height: auto;
+  background: none;
+  border-bottom: 1px solid #ccc;
+}
+.wrapper section .five .two {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: flex;
+  flex-direction: row;
+}
+.wrapper section .five .two dl {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+  height: 7.4rem;
+  background: none;
+  padding: 2rem 0.8rem;
+  box-sizing: border-box;
+}
+.wrapper section .five .two dl img {
+  width: 3.9rem;
+  height: 3.9rem;
+  background: none;
+}
+.wrapper section .five .two dl dd {
+  margin-left: 1.8rem;
+}
+.wrapper section .five .two dl dd p {
+  font-size: 16px;
+}
+.wrapper section .five .two dl dd p a {
+  border-radius: 5px;
+  width: 5rem;
+  height: 1.5rem;
+  color: #999999;
+  border: 1px solid #989898;
+}
+.wrapper section .five .two dl dd span {
+  color: #cfcfcf;
+}
+.wrapper section .five .two a {
+  border: 1px solid red;
+  width: 6rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-top: 2.8rem;
+  margin-right: 1rem;
+  color: red;
+}
+.wrapper section .five .list {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.wrapper section .five .list p {
+  font-size: 14px;
+  padding-bottom: 1rem;
+  color: #999999;
+}
+.wrapper section .six {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrapper section .six ul .nine {
+  width: 100%;
+  height: 5rem;
+  background: none;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 16px;
+}
+.wrapper section .six ul .nine .alt {
+  margin-left: 1rem;
+}
+.wrapper section .six ul li {
+  width: 100%;
+  height: 5rem;
+  background: none;
+  border-bottom: 1px solid #ccc;
+  line-height: 5rem;
+  font-size: 16px;
+}
+.wrapper section .six ul li span {
+  margin-left: 1rem;
+}
+.wrapper section .six ul li .img1 {
+  float: right;
+  margin-top: 2rem;
+  padding-right: 1.4rem;
+}
+.wrapper section .six ul .las {
+  width: 100%;
+  height: 4rem;
+  background: #f3f3f3;
+  line-height: 4rem;
+}
+.wrapper section .six ul .las .tu1 {
+  margin-left: 1rem;
+}
+.wrapper footer {
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #ccc;
+}
+.wrapper footer dl {
+  flex: 1;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+.wrapper footer dl img {
+  width: 2.5rem;
+  height: 2.1rem;
+  background: none;
+}

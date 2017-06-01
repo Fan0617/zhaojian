@@ -1,0 +1,198 @@
+html,body{
+  font-size: 100px;
+}
+.whb (@w,@h,@b){
+  width: @w;
+  height: @h;
+  background: @b;
+}
+.f(@f:left){
+  float: @f;
+}
+.p(@p){
+  position: @p;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.warp{
+  width: 100%;
+  overflow: hidden;
+  header{
+    border-bottom: 2px solid #e0e0e0;
+    width: 100%;
+    height: 0.4rem;
+    background-color: white;
+    .left{
+      .f;
+      .whb(0.08rem,0.16rem,null);
+      background: url("../img/images/8_03.png") no-repeat center center;
+      background-size: 0.08rem 0.16rem;
+      margin-left: 0.1rem;
+      align-items: center;
+      margin-top: 0.12rem;
+    }
+    .center{
+      .f;
+      .whb(2.33rem,0.3rem,#eeeeee);
+      border-radius: 0.04rem;
+      margin-left: 0.2rem;
+      margin-top: 0.04rem;
+      input{
+        .f;
+        .whb(1.75rem,0.31rem,null);
+        border: none;
+        outline: none;
+        padding-left: 0.25rem;
+        align-items: center;
+        background: url("../img/images/9_03_03.png") no-repeat left center;
+        background-size: 0.20rem 0.20rem;
+        font-size: 0.14rem;
+        margin-left: 0.05rem;
+      }
+
+      span{
+        .f(right);
+        .whb(0.23rem,0.23rem,null);
+        background: url("../img/images/9_03_06.png") no-repeat center center;
+        background-size: 0.1rem 0.1rem;
+        margin-top: 0.03rem;
+        margin-right: 0.03rem;
+      }
+    }
+    .right{
+      .f(right);
+      .whb(0.33rem,0.3rem,null);
+      margin-right: 0.08rem;
+      margin-top: 0.08rem;
+      text-align: center;
+      font-size: 0.14rem;
+      color: #ff8182;
+
+    }
+  }
+  section{
+    width: 100%;
+    .top{
+      border-bottom: 2px solid #e0e0e0;
+      .whb(100%,0.56rem,null);
+      dl{
+        .f;
+        .whb(70%,0.56rem,null);
+        dt{
+          .f;
+          margin-left: 0.1rem;
+          img{
+            margin-top: 0.1rem;
+            .whb(0.33rem,0.33rem,null);
+            margin-right: 0.1rem;
+          }
+        }
+          .name{
+            font-size: 0.15rem;
+            padding-top: 0.1rem;
+
+          }
+        .er{
+          font-size: 0.12rem;
+          color: #e0e0e0;
+         display: block;
+
+        }
+      }
+      .right{
+        .f;
+        .whb(30%,0.56rem,null);
+
+        .chaxun{
+          .whb(0.54rem,0.2rem,none);
+          font-size: 0.1rem;
+          border: 2px solid #d3d3d3;
+          .f(right);
+          text-align: center;
+          line-height: 0.2rem;
+          border-radius: 0.03rem;
+          text-decoration: none;
+          color: #d3d3d3;
+          margin-right: 0.12rem;
+          margin-top: 0.2rem;
+        }
+      }
+    }
+    .banner{
+      .whb(100%,1.46rem,null);
+      border-bottom: 2px solid #e0e0e0;
+      .top1{
+        .whb(100%,0.56rem,null);
+        dl{
+          .f;
+          .whb(70%,0.56rem,null);
+          dt{
+            .f;
+            margin-left: 0.1rem;
+            img{
+              margin-top: 0.1rem;
+              .whb(0.33rem,0.33rem,null);
+              margin-right: 0.1rem;
+            }
+          }
+          .name{
+            font-size: 0.15rem;
+            padding-top: 0.1rem;
+
+          }
+          .er{
+            font-size: 0.12rem;
+            color: #e0e0e0;
+            display: block;
+
+          }
+        }
+        .right{
+          .f;
+          .whb(30%,0.56rem,null);
+
+          .chaxun{
+            .whb(0.54rem,0.2rem,none);
+            font-size: 0.1rem;
+            border: 2px solid #fe8d8d;
+            .f(right);
+            text-align: center;
+            line-height: 0.2rem;
+            border-radius: 0.03rem;
+            text-decoration: none;
+            color: #fe8d8d;
+            margin-right: 0.12rem;
+            margin-top: 0.2rem;
+          }
+        }
+      }
+      .guanzhu{
+       .whb(100%,0.14rem,null);
+        padding-left: 0.5rem;
+        .chaxun1{
+          .f;
+          .whb(0.45rem,0.12rem,none);
+          font-size: 0.1rem;
+          border: 2px solid #d3d3d3;
+          text-align: center;
+          line-height: 0.12rem;
+          border-radius: 0.03rem;
+          text-decoration: none;
+          color: #d3d3d3;
+          margin-right: 0.05rem;
+
+        }
+      }
+      .p{
+        margin-top: 0.1rem;
+        font-size: 0.1rem;
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+        color: #d3d3d3;
+        font-size: 30px;
+      }
+    }
+  }
+}

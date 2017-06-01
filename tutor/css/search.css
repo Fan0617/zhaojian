@@ -1,0 +1,215 @@
+html,
+body {
+  font-size: 100px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.warp {
+  width: 100%;
+  overflow: hidden;
+}
+.warp header {
+  border-bottom: 2px solid #e0e0e0;
+  width: 100%;
+  height: 0.4rem;
+  background-color: white;
+}
+.warp header .left {
+  float: left;
+  width: 0.08rem;
+  height: 0.16rem;
+  background: null;
+  background: url("../img/images/8_03.png") no-repeat center center;
+  background-size: 0.08rem 0.16rem;
+  margin-left: 0.1rem;
+  align-items: center;
+  margin-top: 0.12rem;
+}
+.warp header .center {
+  float: left;
+  width: 2.33rem;
+  height: 0.3rem;
+  background: #eeeeee;
+  border-radius: 0.04rem;
+  margin-left: 0.2rem;
+  margin-top: 0.04rem;
+}
+.warp header .center input {
+  float: left;
+  width: 1.75rem;
+  height: 0.31rem;
+  background: null;
+  border: none;
+  outline: none;
+  padding-left: 0.25rem;
+  align-items: center;
+  background: url("../img/images/9_03_03.png") no-repeat left center;
+  background-size: 0.20rem 0.20rem;
+  font-size: 0.14rem;
+  margin-left: 0.05rem;
+}
+.warp header .center span {
+  float: right;
+  width: 0.23rem;
+  height: 0.23rem;
+  background: null;
+  background: url("../img/images/9_03_06.png") no-repeat center center;
+  background-size: 0.1rem 0.1rem;
+  margin-top: 0.03rem;
+  margin-right: 0.03rem;
+}
+.warp header .right {
+  float: right;
+  width: 0.33rem;
+  height: 0.3rem;
+  background: null;
+  margin-right: 0.08rem;
+  margin-top: 0.08rem;
+  text-align: center;
+  font-size: 0.14rem;
+  color: #ff8182;
+}
+.warp section {
+  width: 100%;
+}
+.warp section .top {
+  border-bottom: 2px solid #e0e0e0;
+  width: 100%;
+  height: 0.56rem;
+  background: null;
+}
+.warp section .top dl {
+  float: left;
+  width: 70%;
+  height: 0.56rem;
+  background: null;
+}
+.warp section .top dl dt {
+  float: left;
+  margin-left: 0.1rem;
+}
+.warp section .top dl dt img {
+  margin-top: 0.1rem;
+  width: 0.33rem;
+  height: 0.33rem;
+  background: null;
+  margin-right: 0.1rem;
+}
+.warp section .top dl .name {
+  font-size: 0.15rem;
+  padding-top: 0.1rem;
+}
+.warp section .top dl .er {
+  font-size: 0.12rem;
+  color: #e0e0e0;
+  display: block;
+}
+.warp section .top .right {
+  float: left;
+  width: 30%;
+  height: 0.56rem;
+  background: null;
+}
+.warp section .top .right .chaxun {
+  width: 0.54rem;
+  height: 0.2rem;
+  background: none;
+  font-size: 0.1rem;
+  border: 2px solid #d3d3d3;
+  float: right;
+  text-align: center;
+  line-height: 0.2rem;
+  border-radius: 0.03rem;
+  text-decoration: none;
+  color: #d3d3d3;
+  margin-right: 0.12rem;
+  margin-top: 0.2rem;
+}
+.warp section .banner {
+  width: 100%;
+  height: 1.46rem;
+  background: null;
+  border-bottom: 2px solid #e0e0e0;
+}
+.warp section .banner .top1 {
+  width: 100%;
+  height: 0.56rem;
+  background: null;
+}
+.warp section .banner .top1 dl {
+  float: left;
+  width: 70%;
+  height: 0.56rem;
+  background: null;
+}
+.warp section .banner .top1 dl dt {
+  float: left;
+  margin-left: 0.1rem;
+}
+.warp section .banner .top1 dl dt img {
+  margin-top: 0.1rem;
+  width: 0.33rem;
+  height: 0.33rem;
+  background: null;
+  margin-right: 0.1rem;
+}
+.warp section .banner .top1 dl .name {
+  font-size: 0.15rem;
+  padding-top: 0.1rem;
+}
+.warp section .banner .top1 dl .er {
+  font-size: 0.12rem;
+  color: #e0e0e0;
+  display: block;
+}
+.warp section .banner .top1 .right {
+  float: left;
+  width: 30%;
+  height: 0.56rem;
+  background: null;
+}
+.warp section .banner .top1 .right .chaxun {
+  width: 0.54rem;
+  height: 0.2rem;
+  background: none;
+  font-size: 0.1rem;
+  border: 2px solid #fe8d8d;
+  float: right;
+  text-align: center;
+  line-height: 0.2rem;
+  border-radius: 0.03rem;
+  text-decoration: none;
+  color: #fe8d8d;
+  margin-right: 0.12rem;
+  margin-top: 0.2rem;
+}
+.warp section .banner .guanzhu {
+  width: 100%;
+  height: 0.14rem;
+  background: null;
+  padding-left: 0.5rem;
+}
+.warp section .banner .guanzhu .chaxun1 {
+  float: left;
+  width: 0.45rem;
+  height: 0.12rem;
+  background: none;
+  font-size: 0.1rem;
+  border: 2px solid #d3d3d3;
+  text-align: center;
+  line-height: 0.12rem;
+  border-radius: 0.03rem;
+  text-decoration: none;
+  color: #d3d3d3;
+  margin-right: 0.05rem;
+}
+.warp section .banner .p {
+  margin-top: 0.1rem;
+  font-size: 0.1rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  color: #d3d3d3;
+  font-size: 30px;
+}
